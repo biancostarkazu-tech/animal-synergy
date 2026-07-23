@@ -21,6 +21,12 @@ export default function Home() {
       <p className="mt-8 max-w-xs text-xs text-orange-700/70">
         全6問・約1分で完了！結果はその場でシェアもできます。
       </p>
+      <Link
+        href="/catalog"
+        className="mt-4 text-sm font-bold text-orange-700 underline underline-offset-4 hover:text-orange-800"
+      >
+        どうぶつ図鑑（全24種）を見る
+      </Link>
     </div>
   );
 }

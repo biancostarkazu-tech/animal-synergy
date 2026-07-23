@@ -8,6 +8,7 @@ export interface Animal {
   catchphrase: string;
   reframedTalent: string;
   interactionTip: string;
+  praiseWord: string;
   angleRange: [number, number];
   color: {
     bg: string;
