@@ -27,6 +27,7 @@ export interface Question {
     scoreX: number;
     scoreY: number;
   }[];
+  isGesture?: boolean;
 }
 
 export interface ScoreResult {
